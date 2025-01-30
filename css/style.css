@@ -212,7 +212,6 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -635,6 +634,10 @@ input.enter_bt::placeholder {
     padding-top: 60px;
 }
 
+.blog_section_2 img {
+    object-fit: cover;
+}
+
 .blog_img {
     width: 100%;
     float: left;
@@ -833,8 +836,17 @@ input.enter_bt::placeholder {
     float: left;
 }
 
+.about_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
 .padding_left0 {
     padding-left: 0px;
+}
+
+.customer_img img {
+    width: 200px;
 }
 
 /* about section end */
